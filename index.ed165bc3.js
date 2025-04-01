@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t,e=function(t){return Number(t.replace(/[^0-9.-]+/g,""))},a=document.querySelector("ul");(t=Array.from(a.children)).sort(function(t,a){return e(a.dataset.salary)-e(t.dataset.salary)}),t.forEach(function(t){return a.appendChild(t)}),Array.from(a.children).map(function(t){return{name:t.textContent.trim(),position:t.dataset.position,salary:e(t.dataset.salary),age:Number(t.dataset.age)}})});
+//# sourceMappingURL=index.ed165bc3.js.map
